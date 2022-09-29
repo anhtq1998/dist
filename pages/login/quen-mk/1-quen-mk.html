@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="..\..\..\.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>Forgot password
+  </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <!-- remixicon -->
+  <link rel="stylesheet" href="fonts/main/remix-icons/remixicon.css">
+  <!-- end remixicon -->
+  <!-- formvalidation -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end formvalidation -->
+  <!-- perfectScrollbar -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end perfectScrollbar -->
+  <!-- bootstrapSelect -->
+  <link rel="stylesheet" href="css/vendors/bootstrapSelect/bootstrapSelect.bundles.css">
+  <!-- end bootstrapSelect -->
+  <!-- datetimePicker -->
+  <link rel="stylesheet" href="css/vendors/datetimePicker/datetimePicker.bundles.css">
+  <!-- end datetimePicker -->
+  <!-- timepicker -->
+  <link rel="stylesheet" href="css/vendors/timepicker/timepicker.bundles.css">
+  <!-- end timepicker -->
+  <!-- metronic -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/brand/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/aside/light.css" rel="stylesheet" type="text/css" />
+  <!-- end metronic -->
+  <!-- css use for this page only -->
+  <!--begin::Page Custom Styles(used by this page)-->
+  <link href="css/pages/login/classic/login-6.css" rel="stylesheet" type="text/css" />
+  <!--end::Page Custom Styles-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <!-- end css use for this page only -->
+  <!-- css use for this page only -->
+  <!-- end css use for this page only -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.bundles.css">
+</head>
+
+<body id="kt_body" onload="minimizeCheck()" class="header-mobile-fixed subheader-stuck aside-enabled aside-fixed page-loading aside-minimize-hoverable header-fixed">
+  <!--begin::Main-->
+  <div class="d-flex flex-column flex-root">
+    <!--begin::Login-->
+    <div class="login login-6 login-signin-on login-signin-on d-flex flex-row-fluid" id="kt_login">
+      <div class="d-flex flex-column flex-lg-row flex-row-fluid">
+        <!--begin:Aside-->
+        <div class="d-flex w-50 flex-center login-left">
+          <div class="login-background">
+            <div class="login-bg-logo">
+            </div>
+          </div>
+        </div>
+        <!--end:Aside-->
+        <!-- particles.js container -->
+        <div id="particles-js"></div>
+        <!-- end:particles.js container -->
+        <!--begin:Content-->
+        <div class="d-flex w-100 align-items-center position-relative overflow-hidden login-background-sub">
+          <div class="login-wrapper">
+            <!--begin:Sign In Form-->
+            <div class="box login-box">
+              <div class="form">
+                <div class="h2 serat600 mb-24 page-title">
+                  Forgot password
+                </div>
+                <div class="alert alert-custom alert-light-info fade show" role="alert">
+                  <div class="alert-icon">
+                    <img src="media/icons-color/info/default/info-2.svg" alt="">
+                  </div>
+                  <div class="alert-text">Please input infomation to reset password</div>
+                </div>
+                <div class="form-login-inner list-mb20 list-crop">
+                  <div class="form-group">
+                    <label>
+                      Username <span class="text-danger">*</span>
+                    </label>
+                    <input type="text" class="form-control form-control-lg" placeholder="Input Username">
+                  </div>
+                  <div class="form-group">
+                    <label>
+                      Email <span class="text-danger">*</span>
+                    </label>
+                    <input class="form-control form-control-lg" placeholder="Input email" type="email">
+                  </div>
+                  <div class="form-group">
+                    <label>
+                      Capcha <span class="text-danger">*</span>
+                    </label>
+                    <div class="row align-items-center">
+                      <div class="col"><input class="form-control form-control-lg" placeholder="Input capcha" type="email"></div>
+                      <div class="col-auto"><img src="media/img/captcha.jpg" alt="" class="captcha-img" /></div>
+                      <div class="col-auto">
+                        <a href="javascript:void(0)">
+                          <i class="ri-refresh-line text-info"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="btn btn-primary btn-block btn-lg" href="pages/login/quen-mk/2-quen-mk.html">
+                    Send request
+                  </a>
+                  <a class="btn btn-white btn-white-link btn-block btn-lg" href="pages/login/1-login.html">
+                    Back
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--end:Sign In Form-->
+          </div>
+        </div>
+        <!--end:Content-->
+      </div>
+    </div>
+    <!--end::Login-->
+  </div>
+  <!--end::Main-->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 140,
+          "density": {
+            "enable": true,
+            "value_area": 1025.8919341219544
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "window",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+  <div id="kt_scrolltop" class="scrolltop">
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+  <script src="js/vendors/particles/particles.bundles.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- jquery -->
+  <script src="js/vendors/jquery/jquery.bundles.js"></script>
+  <!-- jquery -->
+  <!-- metronic -->
+  <script src="js/vendors/metronic/metronic.init.js"></script>
+  <script src="js/vendors/metronic/metronic.bundles.js"></script>
+  <!-- metronic -->
+  <!-- popper -->
+  <script src="js/vendors/popper/popper.bundles.js"></script>
+  <!-- popper -->
+  <!-- bootstrap -->
+  <script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+  <!-- bootstrap -->
+  <!-- bsrestabs -->
+  <script src="js/vendors/bsrestabs/bsrestabs.bundles.js"></script>
+  <!-- bsrestabs -->
+  <!-- moment -->
+  <script src="js/vendors/moment/moment.bundles.js"></script>
+  <!-- moment -->
+  <!-- bootstrapSelect -->
+  <script src="js/vendors/bootstrapSelect/bootstrapSelect.bundles.js"></script>
+  <!-- bootstrapSelect -->
+  <!-- datetimePicker -->
+  <script src="js/vendors/datetimePicker/datetimePicker.bundles.js"></script>
+  <!-- datetimePicker -->
+  <!-- perfectScrollbar -->
+  <script src="js/vendors/perfectScrollbar/perfectScrollbar.bundles.js"></script>
+  <!-- perfectScrollbar -->
+  <!-- autosize -->
+  <script src="js/vendors/autosize/autosize.bundles.js"></script>
+  <!-- autosize -->
+  <!-- timepicker -->
+  <script src="js/vendors/timepicker/timepicker.bundles.js"></script>
+  <!-- timepicker -->
+  <!-- wnumb -->
+  <script src="js/vendors/wnumb/wnumb.bundles.js"></script>
+  <!-- wnumb -->
+  <!-- formvalidation -->
+  <script src="js/vendors/formvalidation/formvalidation.bundles.js"></script>
+  <!-- formvalidation -->
+  <!-- cleave -->
+  <script src="js/vendors/cleave/cleave.bundles.js"></script>
+  <script src="js/vendors/cleave/cleave.init.js"></script>
+  <!-- cleave -->
+  <!-- script use for this page only -->
+  <!-- end script for this page only -->
+  <script src="js/custom.js"></script>
+  <!-- script use for this page only -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 140,
+          "density": {
+            "enable": true,
+            "value_area": 1025.8919341219544
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.5,
+          "random": false,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 6,
+          "direction": "none",
+          "random": false,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "window",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+  <!-- end script for this page only -->
+</body>
+
+</html>

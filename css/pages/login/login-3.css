@@ -1,0 +1,420 @@
+.form-control:disabled {
+  color: rgb(191, 204, 217);
+}
+.form-control[readonly] {
+  color: rgb(90, 112, 135);
+}
+
+.btn {
+  padding: 6px 12px;
+  height: 40px;
+}
+.btn-sm {
+  padding: 6px 12px;
+  height: 32px;
+}
+.btn-lg {
+  padding: 6px 12px;
+  height: 48px;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link,
+.brand-toggle .bar,
+.aside-menu .menu-nav > .menu-item.menu-item-here.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-here.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link {
+  background-color: rgb(232, 241, 246) !important;
+}
+
+.brand .btn i,
+.breadcrumbs-item--active .txt {
+  color: rgb(33, 38, 44);
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active > .menu-link {
+  background-color: transparent;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading .menu-icon,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-icon,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-arrow,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-icon {
+  color: rgb(0, 113, 169) !important;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active {
+  background-color: rgb(232, 241, 246) !important;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item > .menu-heading .menu-bullet.menu-bullet-dot > span,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item > .menu-link .menu-bullet.menu-bullet-dot > span {
+  background-color: rgb(191, 204, 217);
+}
+
+.btn.btn-light.dropdown-toggle:after {
+  color: rgb(90, 112, 135) !important;
+}
+
+.toggle {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 32px;
+}
+.toggle .text {
+  font-size: em(18px);
+  transform: translate3d(0, 0, 0);
+}
+
+.brand {
+  border-right: 1px solid rgb(234, 237, 241);
+}
+
+.aside-fixed .aside-left .menu-nav {
+  padding-top: 84px !important;
+}
+
+.brand {
+  width: 280px;
+}
+
+i {
+  color: rgb(33, 38, 44);
+  font-size: 24px;
+}
+
+.navi-link:hover i {
+  color: rgb(0, 113, 169);
+}
+
+.login-box {
+  padding: 30px;
+  border: 1px solid rgb(234, 237, 241);
+  max-width: 540px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.login-background-sub {
+  background: rgb(245, 247, 249);
+}
+
+.modal-content {
+  border-radius: 6px;
+  border: 1px solid rgb(234, 237, 241);
+  box-shadow: 0px 16px 32px rgba(46, 46, 46, 0.4);
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-light .filter-option,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary .filter-option {
+  color: rgb(191, 204, 217);
+}
+
+.table th,
+.table td {
+  border: 1px solid rgb(234, 237, 241) !important;
+}
+
+.ult-wrap .btn i {
+  color: rgb(90, 112, 135);
+}
+.ult-wrap .btn:hover i {
+  color: rgb(0, 113, 169);
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .sticky-ult {
+  background-color: rgb(245, 247, 249);
+}
+
+.table-sticky-ult {
+  border-bottom: 1px solid rgb(234, 237, 241);
+}
+
+.bootstrap-select.form-control-sm .dropdown-toggle {
+  height: 32px;
+}
+
+.sort-asc {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.75' height='10' viewBox='0 0 8.75 10'%3E%3Cpath id='ic_arrow_down' d='M5.006,8.122,7.844,5.3l.906.887L5.289,9.63a1.244,1.244,0,0,1-.914.37,1.244,1.244,0,0,1-.914-.37L0,6.184.906,5.3,3.744,8.122V0H5.006Z' transform='translate(8.75 10) rotate(180)' fill='%23fff'/%3E%3C/svg%3E%0A");
+}
+
+.sort-desc {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.75' height='10' viewBox='0 0 8.75 10'%3E%3Cpath id='ic_arrow_down' d='M5.006,8.122,7.844,5.3l.906.887L5.289,9.63a1.244,1.244,0,0,1-.914.37,1.244,1.244,0,0,1-.914-.37L0,6.184.906,5.3,3.744,8.122V0H5.006Z' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.label-title {
+  color: rgb(90, 112, 135);
+}
+
+.checkbox > span,
+.checkbox > input[readonly] ~ span,
+.radio > span,
+.radio > input[readonly] ~ span {
+  border: 1px solid rgb(191, 204, 217) !important;
+}
+
+.radio > input:checked[readonly] ~ span {
+  background-color: #ffffff;
+}
+.radio > input:checked[readonly] ~ span:after {
+  background-color: rgb(0, 113, 169);
+}
+
+.checkbox > input:checked:not([readonly]) ~ span,
+.radio > input:checked:not([readonly]) ~ span {
+  border-color: rgb(0, 113, 169) !important;
+}
+
+.checkbox > input[readonly] ~ span:before,
+.bootstrap-select .dropdown-menu.inner > li.selected a:after {
+  color: rgb(0, 113, 169) !important;
+}
+
+.signnature-box::before {
+  background-color: rgb(245, 247, 249);
+}
+
+.bootstrap-timepicker-widget table td > a span {
+  color: rgb(90, 112, 135) !important;
+}
+
+.form-control:hover,
+.checkbox input:not(:disabled):not(:checked) ~ span:hover,
+.radio input:not(:disabled):not(:checked) ~ span:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn:hover {
+  border-color: rgb(191, 204, 217) !important;
+}
+
+.btn.btn-light:hover:not(.btn-text):not(:disabled):not(.disabled) {
+  border-color: rgb(191, 204, 217) !important;
+}
+
+.datepicker {
+  border-radius: 3px !important;
+}
+
+.table > thead > tr > th {
+  color: white;
+  background-color: rgb(0, 68, 102);
+  vertical-align: middle;
+}
+
+.btn-link i {
+  color: rgb(0, 113, 169);
+}
+
+.alert.alert-custom.alert-light-info .alert-text {
+  color: rgb(11, 109, 142) !important;
+}
+
+.alert.alert-custom.alert-light-danger .alert-text {
+  color: rgb(142, 11, 11) !important;
+}
+
+.alert.alert-custom.alert-light-warning .alert-text {
+  color: rgb(153, 84, 0) !important;
+}
+
+.btn-white-link {
+  color: rgb(0, 113, 169) !important;
+}
+
+.modal-alert .modal-body {
+  color: rgb(90, 112, 135);
+}
+
+.login.login-3 .login-aside {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 40px rgba(177, 187, 208, 0.15);
+}
+.login.login-3 .login-aside .wizard-nav {
+  padding: 0;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step {
+  padding: 0.75rem 0;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  margin-bottom: 1.5rem;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step:last-child {
+  margin-bottom: 0;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-wrapper {
+  display: flex;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #F3F6F9;
+  margin-right: 1.4rem;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-icon .wizard-check {
+  display: none;
+  font-size: 1.4rem;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-icon .wizard-number {
+  font-weight: 600;
+  color: rgb(33, 38, 44);
+  font-size: 1.35rem;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-title {
+  color: rgb(33, 38, 44);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step .wizard-label .wizard-desc {
+  color: rgb(191, 204, 217);
+  font-size: 1.08rem;
+  font-weight: 500;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=done] .wizard-icon {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  background-color: rgb(238, 246, 239);
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=done] .wizard-icon .wizard-check {
+  color: rgb(41, 163, 57);
+  display: inline-block;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=done] .wizard-icon .wizard-number {
+  display: none;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=done] .wizard-label .wizard-title {
+  color: rgb(191, 204, 217);
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=done] .wizard-label .wizard-desc {
+  color: #D1D3E0;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon {
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  background-color: rgb(238, 246, 239);
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon .wizard-check {
+  color: rgb(41, 163, 57);
+  display: none;
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-icon .wizard-number {
+  color: rgb(41, 163, 57);
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-label .wizard-title {
+  color: rgb(33, 38, 44);
+}
+.login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step[data-wizard-state=current] .wizard-label .wizard-desc {
+  color: #B5B5C3;
+}
+.login.login-3 .login-aside .aside-img-wizard {
+  min-height: 320px !important;
+  background-size: 400px;
+}
+.login.login-3 .login-content {
+  background-color: #F3F5F9;
+}
+.login.login-3 .login-content .form-group .fv-help-block {
+  font-size: 1.1rem !important;
+  padding-top: 3px;
+}
+
+@media (min-width: 992px) {
+  .login.login-3 .login-aside {
+    width: 100%;
+    max-width: 600px;
+  }
+  .login.login-3 .login-aside .aside-img {
+    min-height: 550px !important;
+    background-size: 630px;
+  }
+  .login.login-3 .login-content .top-signup {
+    max-width: 650px;
+    width: 100%;
+  }
+  .login.login-3 .login-content .top-signin {
+    max-width: 450px;
+    width: 100%;
+  }
+  .login.login-3 .login-content .top-forgot {
+    max-width: 450px;
+    width: 100%;
+  }
+  .login.login-3 .login-content .login-form {
+    width: 100%;
+    max-width: 450px;
+  }
+  .login.login-3 .login-content .login-form.login-form-signup {
+    max-width: 650px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .login.login-3 .login-aside {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 991.98px) {
+  .login.login-3 .login-aside .aside-img {
+    min-height: 500px !important;
+    background-size: 500px;
+  }
+  .login.login-3 .login-aside .login-logo {
+    text-align: center;
+  }
+  .login.login-3 .login-aside .wizard-nav {
+    padding: 0;
+    align-content: center;
+  }
+  .login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step {
+    margin-bottom: 0.5rem;
+  }
+  .login.login-3 .login-aside .wizard-nav .wizard-steps .wizard-step:last-child {
+    margin-bottom: 0;
+  }
+  .login.login-3 .login-content .top-signup {
+    width: 100%;
+    max-width: 400px;
+  }
+  .login.login-3 .login-content .top-signin {
+    max-width: 400px;
+    width: 100%;
+  }
+  .login.login-3 .login-content .top-forgot {
+    max-width: 400px;
+    width: 100%;
+  }
+  .login.login-3 .login-content .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 575.98px) {
+  .login.login-3 .login-aside .aside-img {
+    min-height: 300px !important;
+    background-size: 350px;
+  }
+}
+/*# sourceMappingURL=../../map/pages/login/login-3.css.map */

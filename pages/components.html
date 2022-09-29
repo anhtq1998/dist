@@ -1,0 +1,2017 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="..\.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>VNPAY OMNI BE -
+    Components</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <!-- remixicon -->
+  <link rel="stylesheet" href="fonts/main/remix-icons/remixicon.css">
+  <!-- end remixicon -->
+  <!-- formvalidation -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end formvalidation -->
+  <!-- perfectScrollbar -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end perfectScrollbar -->
+  <!-- bootstrapSelect -->
+  <link rel="stylesheet" href="css/vendors/bootstrapSelect/bootstrapSelect.bundles.css">
+  <!-- end bootstrapSelect -->
+  <!-- datetimePicker -->
+  <link rel="stylesheet" href="css/vendors/datetimePicker/datetimePicker.bundles.css">
+  <!-- end datetimePicker -->
+  <!-- timepicker -->
+  <link rel="stylesheet" href="css/vendors/timepicker/timepicker.bundles.css">
+  <!-- end timepicker -->
+  <!-- metronic -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/brand/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/aside/light.css" rel="stylesheet" type="text/css" />
+  <!-- end metronic -->
+  <!-- css use for this page only -->
+  <!-- end css use for this page only -->
+  <!-- css use for this page only -->
+  <!-- end css use for this page only -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.bundles.css">
+  <link rel="shortcut icon" type="text/html" href="media/favicon/favicon.png">
+</head>
+
+<body id="kt_body" onload="minimizeCheck()" class="header-mobile-fixed subheader-stuck aside-enabled aside-fixed page-loading aside-minimize-hoverable header-fixed">
+  <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
+    <!--begin::Logo-->
+    <a href="pages/index.html">
+      <img alt="Logo" src="media/brands/logo.svg" />
+    </a>
+    <!--end::Logo-->
+    <!--begin::Toolbar-->
+    <div class="d-flex align-items-center">
+      <div class="topbar-item">
+        <div class="dropdown">
+          <div class="topbar-item btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary" data-toggle="dropdown" data-offset="10px,0px">
+            <i class="ri-notification-2-fill text-dark-50">
+              <div class="notify-number"></div>
+            </i>
+          </div>
+          <!--begin::Dropdown-->
+          <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg dropdown-height-noti">
+            <ul class="list-none">
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+            </ul>
+          </div>
+          <!--end::Dropdown-->
+        </div>
+      </div>
+      <!--begin::Aside Mobile Toggle-->
+      <button class="btn p-0 brand-toggle burger-icon-left" id="kt_aside_mobile_toggle">
+        <div class="con">
+          <div class="bar arrow-top"></div>
+          <div class="bar arrow-middle"></div>
+          <div class="bar arrow-bottom"></div>
+        </div>
+      </button>
+      <!--end::Aside Mobile Toggle-->
+      <!--begin::Topbar Mobile Toggle-->
+      <div class="dropdown">
+        <!--begin::User-->
+        <a class="btn btn-hover-text-primary p-0 ml-2" data-toggle="dropdown">
+          <div class="avatar-image" style="background-image: url(dist/media/default/avatar.svg)"></div>
+        </a>
+        <!--end::User-->
+        <!--begin::Dropdown-->
+        <div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-md dropdown-menu-right">
+          <!--begin::Nav-->
+          <ul class="navi navi-hover py-4">
+            <!--begin::Item-->
+            <li class="navi-item">
+              <a href="pages/profile/1-doi-mat-khau.html" class="navi-link">
+                <img src="media/icons-color/subdefault/default/key.svg" alt="" class="navi-icon">
+                <span class="navi-text">Đổi mật khẩu</span>
+              </a>
+            </li>
+            <li class="navi-item">
+              <a href="pages/login/1-login.html" class="navi-link">
+                <img src="dist//media/icons-color/subdefault/default/logout.svg" alt="" class="navi-icon">
+                <span class="navi-text">Đăng xuất</span>
+              </a>
+            </li>
+            <!--end::Item-->
+          </ul>
+          <!--end::Nav-->
+        </div>
+        <!--end::Dropdown-->
+      </div>
+      <!--end::Topbar Mobile Toggle-->
+    </div>
+    <!--end::Toolbar-->
+  </div>
+  <!--begin::Header-->
+  <div id="kt_header" class="header header-fixed">
+    <!--begin::Container-->
+    <div class="d-flex align-items-stretch header-inner">
+      <!--begin::Header Menu Wrapper-->
+      <!--begin::Brand-->
+      <div class="brand flex-column-auto" id="kt_brand">
+        <!--begin::Toggle-->
+        <button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
+          <img src="media/icons-color/primary/default/burger-2.svg" alt="">
+        </button>
+        <!--end::Toolbar-->
+        <!--begin::Logo-->
+        <a href="pages/index.html" class="brand-logo">
+          <img alt="Logo" src="media/brands/logo.svg" />
+        </a>
+        <!--end::Logo-->
+      </div>
+      <!--end::Brand-->
+      <div class="w-100 justify-content-between d-flex">
+        <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+          <!--begin::Header Menu-->
+          <div id="kt_header_menu" class="align-items-center header-menu header-menu-mobile header-menu-layout-default">
+            <div class="pl-32 h4 page-title">Hệ thống OMNI Back End</div>
+          </div>
+          <!--end::Header Menu-->
+        </div>
+        <!--end::Header Menu Wrapper-->
+        <!--begin::Topbar-->
+        <div class="topbar">
+          <div class="topbar-item">
+            <div class="dropdown">
+              <div class="topbar-item btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary" data-toggle="dropdown" data-offset="10px,0px">
+                <i class="ri-notification-2-fill text-dark-50">
+                  <div class="notify-number"></div>
+                </i>
+              </div>
+              <!--begin::Dropdown-->
+              <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg dropdown-height-noti">
+                <ul class="list-none">
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                </ul>
+              </div>
+              <!--end::Dropdown-->
+            </div>
+          </div>
+          <div class="dropdown avatar-dropdown">
+            <!--begin::User-->
+            <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
+              <div class="btn btn-icon w-auto d-flex align-items-center btn-lg px-2">
+                <div class="avatar-text">
+                  <div class="h5 text-dark-50">
+                    Xin chào!
+                  </div>
+                  <div class="p font-weight-500">Hằng</div>
+                </div>
+                <div class="avatar-image" style="background-image: url(dist/media/default/avatar.svg)"></div>
+                <div class="avatar-arrow">
+                  <img src="media/icons-color/subdefault/default/carret-down.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <!--end::User-->
+            <!--begin::Dropdown-->
+            <div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-md dropdown-menu-right">
+              <!--begin::Nav-->
+              <ul class="navi navi-hover py-4">
+                <!--begin::Item-->
+                <li class="navi-item">
+                  <a href="pages/profile/2-thong-tin-tai-khoan.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/24x24-user.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Thông tin tài khoản</span>
+                  </a>
+                </li>
+                <li class="navi-item">
+                  <a href="pages/profile/1-doi-mat-khau.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/key.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Đổi mật khẩu</span>
+                  </a>
+                </li>
+                <li class="navi-item">
+                  <a href="pages/login/1-login.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/logout.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Đăng xuất</span>
+                  </a>
+                </li>
+                <!--end::Item-->
+              </ul>
+              <!--end::Nav-->
+            </div>
+            <!--end::Dropdown-->
+          </div>
+        </div>
+      </div>
+      <!--end::Topbar-->
+    </div>
+    <!--end::Container-->
+  </div>
+  <!--end::Header-->
+  <div class="d-flex flex-column flex-root">
+    <!--begin::Page-->
+    <div class="d-flex flex-row flex-column-fluid page">
+      <!--begin::Aside-->
+      <div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+        <!--begin::Aside Menu-->
+        <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+          <!--begin::Menu Container-->
+          <div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500">
+            <!--begin::Menu Nav-->
+            <ul class="menu-nav">
+              <li class="menu-item center menu-item-active" aria-haspopup="true">
+                <a href="pages/components.html" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/puzzle.svg" alt="" class=""></div>
+                  <span class="menu-text">Component</span>
+                </a>
+              </li>
+              <li class="menu-item center" aria-haspopup="true">
+                <a href="pages/" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/layout-4-block.svg" alt="" class=""></div>
+                  <span class="menu-text">Màn hình chính</span>
+                </a>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/cod007.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý hệ thống</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-banner/1-danh-sach-banner.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý Banner</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-nguoi-dung/1-danh-sach-nguoi-dung.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý người dùng</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý tin OTT</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý nhóm quyền</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item center" aria-haspopup="true">
+                <a href="pages/quan-ly-user-web-app/1-danh-sach-user-web-app.html" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/layout-4-block.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý User Web/App</span>
+                </a>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/folders.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý giao dịch</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/1-danh-sach-giao-dich-thanh-toan.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch thanh toán - thu hộ</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/2-danh-sach-giao-dich-hoan.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch hoàn - thu hộ</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/3-danh-sach-giao-dich-he-sinh-thai.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch hệ sinh thái</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/4-danh-sach-giao-dich-vi-vnpay.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch Ví VNPAY</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/folders.svg" alt="" class=""></div>
+                  <span class="menu-text">Hỗ trợ</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Lịch sử truy cập ứng dụng</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/ho-tro/1-phien-dang-nhap.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Phiên truy cập ứng dụng</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <!--end::Menu Nav-->
+          </div>
+          <!--end::Menu Container-->
+        </div>
+        <!--end::Aside Menu-->
+      </div>
+      <!--end::Aside-->
+      <!--begin::Wrapper-->
+      <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+        <!--begin::Content-->
+        <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+          <!--begin::Entry-->
+          <div class="d-flex flex-column-fluid">
+            <!--begin::Container-->
+            <div class="container-fluid">
+              <!-- custom.breadcrumbs -->
+              <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 h5">
+                <li class="breadcrumb-item">
+                  <a class="text-dark" href="pages/index.html">
+                    <i class="ri-home-4-fill text-dark pr-4 fz-h4"></i>
+                    <span class="txt">Trang chủ</span>
+                  </a>
+                </li>
+                <li class="breadcrumb-item text-muted">
+                  <a class="text-dark-50" href="pages/index.html">
+                    <span class="txt">Home</span>
+                  </a>
+                </li>
+                <li class="breadcrumb-item text-muted breadcrumbs-item--active">
+                  <a class="text-dark-50">
+                    <span class="txt">Component</span>
+                  </a>
+                </li>
+              </ul>
+              <!-- end custom.breadcrumbs -->
+              <!--begin::Dashboard-->
+              <div class="row">
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form" id="kt_form_1">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Form validation
+                        </div>
+                        <div class="list-mb16 list-crop">
+                          <div class="section">
+                            <div class="row list-mb16 list-crop">
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <label>
+                                    Checkbox
+                                  </label>
+                                  <div class="checkbox-inline">
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkboxes">
+                                      <span></span>checkbox 1
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkboxes">
+                                      <span></span>checkbox 2
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <label>
+                                    Radio
+                                  </label>
+                                  <div class="radio-inline">
+                                    <label class="radio">
+                                      <input type="radio" name="radios">
+                                      <span></span>radio 1
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radios">
+                                      <span></span>radio 2
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section">
+                            <div class="row list-mb16 list-crop">
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <label>
+                                    Input
+                                    <span class="text-danger">*</span>
+                                  </label>
+                                  <input type="email" class="form-control" placeholder="Nhập input" name="email">
+                                </div>
+                              </div>
+                              <div class="col-xl-3 col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <label>
+                                    Select
+                                    <span class="text-danger">*</span>
+                                  </label>
+                                  <select class="form-control selectpicker" title="Chọn" title="Chọn" name="select" data-size="5">
+                                    <option>
+                                      Tất cả
+                                    </option>
+                                  </select>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section">
+                            <div class="row list-mb16 list-crop">
+                              <div class="col-xl-5 col-md-6">
+                                <div class="form-group row row-16">
+                                  <label class="col-form-label col-sm-5">
+                                    Input
+                                    <span class="text-danger">*</span>
+                                  </label>
+                                  <div class="col-sm-7">
+                                    <input type="email" class="form-control" placeholder="Nhập input" name="email">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="offset-xl-1 col-xl-5 col-md-6">
+                                <div class="form-group row row-16">
+                                  <label class="col-form-label col-sm-5">
+                                    Select
+                                    <span class="text-danger">*</span>
+                                  </label>
+                                  <div class="col-sm-7">
+                                    <select class="form-control selectpicker" title="Chọn" title="Chọn" name="select" data-size="5">
+                                      <option>
+                                        Tất cả
+                                      </option>
+                                    </select>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer">
+                        <div class="row row-16">
+                          <div class="col-auto">
+                            <button type="submit" name="submitButton" class="btn btn-primary">Validate</button>
+                          </div>
+                          <div class="col-auto">
+                            <button type="reset" class="btn btn-secondary">Cancel</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Input
+                          vertical
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Input
+                              </label>
+                              <input type="text" class="form-control" placeholder="Nhập input">
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Input with note
+                              </label>
+                              <input type="text" class="form-control" placeholder="Nhập input with note">
+                              <span class="form-text">Note example</span>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Input with note
+                              </label>
+                              <textarea class="form-control textarea-autosize" placeholder="Input with note" rows="2" onkeyup="countChar(this)"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Select
+                          vertical
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Select
+                              </label>
+                              <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5">
+                                <option>
+                                  Tất cả
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Select search
+                              </label>
+                              <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5" data-live-search="true" data-live-search-normalize="true">
+                                <option>
+                                  Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska
+                                </option>
+                                <option>
+                                  Hawaii
+                                </option>
+                                <option>
+                                  California
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Select Multiple
+                              </label>
+                              <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5" data-live-search="true" data-live-search-normalize="true" multiple="multiple" data-selected-text-format="count > 2" data-actions-box="true">
+                                <option>
+                                  Alaska
+                                </option>
+                                <option>
+                                  Hawaii
+                                </option>
+                                <option>
+                                  California
+                                </option>
+                                <option>
+                                  Washington
+                                </option>
+                                <option>
+                                  Arizona
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Datepicker
+                          vertical
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Single
+                              </label>
+                              <input type="text" class="form-control datepicker datepicker-date" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date" data-opens="left" data-single-date-picker="true">
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Range
+                              </label>
+                              <input type="text" class="form-control datepicker datepicker-date" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date" data-opens="left">
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Range Time
+                              </label>
+                              <input type="text" class="form-control datepicker datepicker-date-time" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date-time" data-opens="left">
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-4 col-sm-6">
+                            <div class="form-group">
+                              <label>
+                                Timepicker
+                              </label>
+                              <input type="text" class="form-control timepicker" placeholder="Nhập timepicker">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Input
+                          horizontal
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Input
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control" placeholder="Nhập input">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6 offset-xl-1">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Input with note
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control" placeholder="Nhập input with note">
+                                <span class="form-text">Note example</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Input with note
+                              </label>
+                              <div class="col-sm-7">
+                                <textarea class="form-control textarea-autosize" placeholder="Input with note" rows="2" onkeyup="countChar(this)"></textarea>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Select
+                          horizontal
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Select
+                              </label>
+                              <div class="col-sm-7">
+                                <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5">
+                                  <option>
+                                    Tất cả
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6 offset-xl-1">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Select search
+                              </label>
+                              <div class="col-sm-7">
+                                <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5" data-live-search="true" data-live-search-normalize="true">
+                                  <option>
+                                    Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska Alaska
+                                  </option>
+                                  <option>
+                                    Hawaii
+                                  </option>
+                                  <option>
+                                    California
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Select Multiple
+                              </label>
+                              <div class="col-sm-7">
+                                <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5" data-live-search="true" data-live-search-normalize="true" multiple="multiple" data-selected-text-format="count > 2" data-actions-box="true">
+                                  <option>
+                                    Alaska
+                                  </option>
+                                  <option>
+                                    Hawaii
+                                  </option>
+                                  <option>
+                                    California
+                                  </option>
+                                  <option>
+                                    Washington
+                                  </option>
+                                  <option>
+                                    Arizona
+                                  </option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Datepicker
+                          horizontal
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Single
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control datepicker datepicker-date" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date" data-opens="left" data-single-date-picker="true">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6 offset-xl-1">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Range
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control datepicker datepicker-date" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date" data-opens="left">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Range Time
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control datepicker datepicker-date-time" placeholder="dd/mm/yyyy - dd/mm/yyyy" type="date-time" data-opens="left">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-5 col-md-6 offset-xl-1">
+                            <div class="form-group row row-16">
+                              <label class="col-form-label col-sm-5">
+                                Timepicker
+                              </label>
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control timepicker" placeholder="Nhập timepicker">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Form Labels
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form">
+                              <div class="row list-mt16 list-crop">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="offset-xl-1 col-xl-5 col-md-6">
+                            <div class="form">
+                              <div class="row list-mt16 list-crop">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <div class="card-body">
+                      <div class="card-title h4 font-weight-500">
+                        Checkbox All
+                      </div>
+                      <div class="panel panel-list-checkbox panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <div class="row row-8">
+                              <div class="col-auto">
+                                <a data-toggle="collapse" data-target=".checkboxList1" aria-expanded="true">
+                                  <span class="ri-arrow-up-s-line"></span>
+                                </a>
+                              </div>
+                              <div class="col">
+                                <label class="checkbox">
+                                  <input id="checkboxAll1" type="checkbox" name="parent-checkboxAll1">
+                                  <span></span>Quản lý tài khoản
+                                </label>
+                              </div>
+                            </div>
+                          </h4>
+                        </div>
+                        <div id="" class="panel-collapse collapse show checkboxList1">
+                          <div class="panel-body">
+                            <div class="panel-body-content">
+                              <div class="row list-mb12 list-crop">
+                                <div class="col-12">
+                                  <label class="checkbox">
+                                    <input type="checkbox" name="checkboxAll1">
+                                    <span></span>Thêm mới
+                                  </label>
+                                </div>
+                                <div class="col-12">
+                                  <label class="checkbox">
+                                    <input type="checkbox" name="checkboxAll1" checked="">
+                                    <span></span>Chỉnh sửa
+                                  </label>
+                                </div>
+                                <div class="col-12">
+                                  <label class="checkbox">
+                                    <input type="checkbox" name="checkboxAll1" checked="">
+                                    <span></span>Reset mật khẩu
+                                  </label>
+                                </div>
+                                <div class="col-12">
+                                  <label class="checkbox">
+                                    <input type="checkbox" name="checkboxAll1">
+                                    <span></span>Khóa / Mở khóa
+                                  </label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Checkbox - Radio
+                        </div>
+                        <div class="list-mb16 list-crop">
+                          <div class="section">
+                            <div class="row list-mb16 list-crop">
+                              <div class="col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <div class="checkbox-list">
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1">
+                                      <span></span>Checkbox
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1" disabled>
+                                      <span></span>Checkbox Disabled
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1" checked>
+                                      <span></span>Checkbox checked
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1" checked disabled>
+                                      <span></span>Checkbox checked Disabled
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1" readonly disabled>
+                                      <span></span>Checkbox Readonly
+                                    </label>
+                                    <label class="checkbox">
+                                      <input type="checkbox" name="checkbox1" checked readonly disabled>
+                                      <span></span>Checkbox checked Readonly
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 col-sm-6">
+                                <div class="form-group">
+                                  <div class="radio-list">
+                                    <label class="radio">
+                                      <input type="radio" name="radio1">
+                                      <span></span>radio
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radio2" disabled>
+                                      <span></span>radio Disabled
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radio3" checked>
+                                      <span></span>radio checked
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radio4" checked disabled>
+                                      <span></span>radio checked Disabled
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radio5" readonly disabled>
+                                      <span></span>radio Readonly
+                                    </label>
+                                    <label class="radio">
+                                      <input type="radio" name="radio6" checked readonly disabled>
+                                      <span></span>Checkbox checked Readonly
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Form Labels
+                        </div>
+                        <div class="row list-mb16 list-crop">
+                          <div class="col-xl-5 col-md-6">
+                            <div class="form">
+                              <div class="row list-mt16 list-crop">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="offset-xl-1 col-xl-5 col-md-6">
+                            <div class="form">
+                              <div class="row list-mt16 list-crop">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Buttons
+                        </div>
+                        <div class="list-mb16 list-crop">
+                          <div class="section">
+                            <div class="row row-16 list-mb16 list-crop">
+                              <div class="col-auto">
+                                <button class="btn btn-primary">
+                                  Primary
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-light-primary">
+                                  Light primary
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-secondary">
+                                  Secondary
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-success">
+                                  Success
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-light-primary">
+                                  Button Icon
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-primary btn-large">
+                                  Large
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="section">
+                            <div class="row row-16 list-mb16 list-crop align-items-center">
+                              <div class="col-auto">
+                                <button class="btn btn-primary btn-sm">
+                                  Small
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-primary">
+                                  Default
+                                </button>
+                              </div>
+                              <div class="col-auto">
+                                <button class="btn btn-primary btn-lg">
+                                  Large
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Labels
+                        </div>
+                        <div class="row row-10 list-mb8">
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-success label-inline">Hoạt động</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Khoá</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-info label-inline">Mới</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-inactive label-inline">Không hoạt động</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Hủy</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-dark-default label-inline">Hết hạn</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-success label-inline">Đã duyệt</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-inactive label-inline">Vô hiệu</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-info label-inline">Khởi tạo</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-warning label-inline">Chờ duyệt</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Từ chối duyệt</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-dark-default label-inline">Kết thúc</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-success label-inline">Thành công</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Không thành công</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Lỗi</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-success label-inline">Chuyển mạng thành công</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-default label-inline">Đóng</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-success label-inline">Label light success</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-danger label-inline">Label light danger</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-info label-inline">Label light info</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-default label-inline">Label default</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-warning label-inline">Label light warning</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                          <div class="col-auto">
+                            <!-- util.labelStatus -->
+                            <label class="label label-size-default label-light-inactive label-inline">Label light inactive</label>
+                            <!-- end util.labelStatus -->
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Modals Form
+                        </div>
+                        <div class="list-mb16 list-crop">
+                          <div class="section">
+                            <div class="row row-16 list-mb16 list-crop">
+                              <div class="col-auto">
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#modalForm">
+                                  Modal Form
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#modalAlert">
+                                  Modal Alert
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#modalAlertError">
+                                  Modal Alert Error
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-primary" data-toggle="modal" data-target="#modalAlertSuccess">
+                                  Modal Alert Success
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Toasts
+                        </div>
+                        <div class="list-mb16 list-crop">
+                          <div class="section">
+                            <div class="row row-16 list-mb16 list-crop">
+                              <div class="col-auto">
+                                <a class="btn btn-info" data-toast="toast" toast-target="#toastInfo">
+                                  Info
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-success" data-toast="toast" toast-target="#toastSuccess">
+                                  Success
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-warning" data-toast="toast" toast-target="#toastWarning">
+                                  Warning
+                                </a>
+                              </div>
+                              <div class="col-auto">
+                                <a class="btn btn-danger" data-toast="toast" toast-target="#toastDanger">
+                                  Danger
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+                <div class="col-12">
+                  <!--begin::Card-->
+                  <div class="card card-border card-custom gutter-b example example-compact">
+                    <!--begin::Form-->
+                    <form class="form">
+                      <div class="card-body">
+                        <div class="card-title h4 font-weight-500">
+                          Table
+                        </div>
+                        <!-- tables.table -->
+                        <div class="table-wrap table-responsive-new">
+                          <div class="table-top">
+                            <div class="row align-items-center list-mb16 list-crop">
+                              <div class="col">
+                                Tổng số bản ghi:
+                                <span class="font-weight-500 text-primary">1000</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="table-wrap-inner">
+                            <table class="table table-sticky-ult table-striped">
+                              <thead>
+                                <tr>
+                                  <th>
+                                    STT
+                                  </th>
+                                  <th class="sort sort-asc">
+                                    Họ và tên
+                                  </th>
+                                  <th class="sort sort-desc">
+                                    mã khách hàng
+                                  </th>
+                                  <th class="sort sort-no">
+                                    loại kh
+                                  </th>
+                                  <th class="sort sort-no">
+                                    số điện thoại
+                                  </th>
+                                  <th class="sort sort-no">
+                                    kiểu khách hàng
+                                  </th>
+                                  <th class="sort sort-no">
+                                    mã nhân viên
+                                  </th>
+                                  <th class="sort sort-no">
+                                    trạng thái
+                                  </th>
+                                  <th class="sticky-ult">
+                                    Thao tác
+                                  </th>
+                                </tr>
+                              </thead>`
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    1
+                                  </td>
+                                  <td class="">
+                                    Nông Thị Phù Dung
+                                  </td>
+                                  <td class="">
+                                    8220-000576633
+                                  </td>
+                                  <td class="">
+                                    100 - Individual
+                                  </td>
+                                  <td class="">
+                                    0901171296
+                                  </td>
+                                  <td class="">
+                                    Phổ thông
+                                  </td>
+                                  <td class="">
+                                    12345678
+                                  </td>
+                                  <td class="text-center">
+                                    <!-- util.labelStatus -->
+                                    <label class="label label-size-default label-light-success label-inline">Hoạt động</label>
+                                    <!-- end util.labelStatus -->
+                                  </td>
+                                  <td class="sticky-ult">
+                                    <!-- tables.tableUlt -->
+                                    <div class="ult-wrap">
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Chỉnh sửa">
+                                        <i class="ri-pencil-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Xem chi tiết">
+                                        <i class="ri-eye-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Xoá">
+                                        <i class="ri-delete-bin-fill text-danger"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Khoá">
+                                        <i class="ri-lock-2-fill text-danger"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Cấp lại mật khẩu">
+                                        <i class="ri-key-2-line"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Mở khoá">
+                                        <i class="ri-lock-unlock-fill text-success"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Email">
+                                        <i class="ri-mail-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Email">
+                                        <i class="ri-printer-fill"></i>
+                                      </button>
+                                    </div>
+                                    <!-- end tables.tableUlt -->
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td>
+                                    2
+                                  </td>
+                                  <td class="">
+                                    Tiêu Thị Phù Dung
+                                  </td>
+                                  <td class="">
+                                    8220-000576633
+                                  </td>
+                                  <td class="">
+                                    100 - Individual
+                                  </td>
+                                  <td class="">
+                                    0901171296
+                                  </td>
+                                  <td class="">
+                                    <span class="text-primary">VIP</span>
+                                  </td>
+                                  <td class="">
+                                    —
+                                  </td>
+                                  <td class="">
+                                    <!-- util.labelStatus -->
+                                    <label class="label label-size-default label-light-danger label-inline">Khoá</label>
+                                    <!-- end util.labelStatus -->
+                                  </td>
+                                  <td class="sticky-ult">
+                                    <!-- tables.tableUlt -->
+                                    <div class="ult-wrap">
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Chỉnh sửa">
+                                        <i class="ri-pencil-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Xem chi tiết">
+                                        <i class="ri-eye-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Xoá">
+                                        <i class="ri-delete-bin-fill text-danger"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Khoá">
+                                        <i class="ri-lock-2-fill text-danger"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Cấp lại mật khẩu">
+                                        <i class="ri-key-2-line"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Mở khoá">
+                                        <i class="ri-lock-unlock-fill text-success"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Email">
+                                        <i class="ri-mail-fill"></i>
+                                      </button>
+                                      <button class="btn btn-transaprent btn-icon btn-sm" data-tooltip="tooltip" title="Email">
+                                        <i class="ri-printer-fill"></i>
+                                      </button>
+                                    </div>
+                                    <!-- end tables.tableUlt -->
+                                  </td>
+                                </tr>
+                              </tbody>`
+                            </table>
+                          </div>
+                          <div class="record-and-pagination">
+                            <div class="row align-items-center list-mb16 list-crop justify-content-between margin-clear">
+                              <div class="col-md-auto record-left">
+                                <!-- tables.record -->
+                                <div class="record-number">
+                                  <div class="row row-8 align-items-center">
+                                    <div>
+                                      Hiển thị
+                                    </div>
+                                    <div>
+                                      <div class="form-group">
+                                        <select class="form-control form-control-sm selectpicker" data-size="5">
+                                          <option selected selected>
+                                            5
+                                          </option>
+                                          <option>
+                                            10
+                                          </option>
+                                          <option>
+                                            15
+                                          </option>
+                                          <option>
+                                            20
+                                          </option>
+                                          <option>
+                                            25
+                                          </option>
+                                        </select>
+                                      </div>
+                                    </div>
+                                    <div>
+                                      bản ghi
+                                    </div>
+                                  </div>
+                                </div>
+                                <!-- tables.record -->
+                              </div>
+                              <div class="col-md-auto">
+                                <!-- tables.pagination -->
+                                <div class="pagination justify-content-center">
+                                  <div class="d-flex flex-wrap py-2 mr-3">
+                                    <a class="btn btn-icon btn-sm btn-secondary btn-disabled">
+                                      <i class="ri-arrow-left-s-line"></i>
+                                    </a>
+                                    <a class="btn btn-icon btn-sm border-0 btn-hover-primary">1</a>
+                                    <a class="btn btn-icon btn-sm border-0 btn-hover-primary active">2</a>
+                                    <a class="btn btn-icon btn-sm border-0 btn-hover-primary">3</a>
+                                    <a id="pagination-btn" class="btn btn-icon btn-sm border-0 btn-hover-primary">...</a>
+                                    <div id="page-jump" class="dnone">
+                                      <div class="row row-16">
+                                        <div class="col" style="margin-right: -12px">
+                                          <input type="text" class="form-control" placeholder="Tới trang">
+                                        </div>
+                                        <div class="col-auto">
+                                          <button class="btn btn-light-primary" style="padding-right: 6px;">
+                                            <i class="ri-checkbox-circle-line"></i>
+                                          </button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <a class="btn btn-icon btn-sm border-0 btn-hover-primary">5</a>
+                                    <a class="btn btn-icon btn-sm btn-secondary">
+                                      <i class="ri-arrow-right-s-line"></i>
+                                    </a>
+                                  </div>
+                                </div>
+                                <!-- tables.pagination -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- end tables.table -->
+                      </div>
+                    </form>
+                    <!--end::Form-->
+                  </div>
+                  <!--end::Card-->
+                </div>
+              </div>
+              <!--end::Dashboard-->
+            </div>
+            <!--end::Container-->
+          </div>
+          <!--end::Entry-->
+        </div>
+        <!--end::Content-->
+        <div id="footer"></div>
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
+  </div>
+  <div id="kt_scrolltop" class="scrolltop">
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+  <!-- modal.modalAlert -->
+  <!-- modal.modal -->
+  <div class="modal fade modal-alert" id="modalSelectOrg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Lựa chọn tổ chức</h5>
+        </div>
+        <div class="modal-body">
+          <div class="form list-mb24 list-crop">
+            <div class="text-center text-dark-50 mb-20">
+              Quý khách vui lòng lựa chọn thông tin tổ chức muốn truy cập
+            </div>
+            <div class="text-left">
+              <div class="form-group">
+                <label>
+                  Tổ chức
+                </label>
+                <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5">
+                  <option>
+                    Công ty Cổ phần Công nghệ Giáo dục Tri thức số Việt Nam
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-secondary btn-block" data-dismiss="modal">
+                Đóng
+              </a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary btn-block" data-dismiss="modal">
+                Tiếp tục
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <div class="toast text-info" id="toastInfo" role="alert" aria-live="assertive" aria-atomic="true" tabindex="-1">
+    <div class="toast-body">
+      <div class="row row-12">
+        <div class="col flex-grow-1">
+          <div class="toast-title">
+            Toast Infro
+          </div>
+          <div class="toast-content text-dark">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed do eiusmod tempor
+          </div>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-transparent btn-icon btn-sm" data-dismiss="toast" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toast text-success" id="toastSuccess" role="alert" aria-live="assertive" aria-atomic="true" tabindex="-1">
+    <div class="toast-body">
+      <div class="row row-12">
+        <div class="col flex-grow-1">
+          <div class="toast-title">
+            Toast Success
+          </div>
+          <div class="toast-content text-dark">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed do eiusmod tempor
+          </div>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-transparent btn-icon btn-sm" data-dismiss="toast" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toast text-warning" id="toastWarning" role="alert" aria-live="assertive" aria-atomic="true" tabindex="-1">
+    <div class="toast-body">
+      <div class="row row-12">
+        <div class="col flex-grow-1">
+          <div class="toast-title">
+            Toast Warning
+          </div>
+          <div class="toast-content text-dark">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed do eiusmod tempor
+          </div>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-transparent btn-icon btn-sm" data-dismiss="toast" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toast text-danger" id="toastDanger" role="alert" aria-live="assertive" aria-atomic="true" tabindex="-1">
+    <div class="toast-body">
+      <div class="row row-12">
+        <div class="col flex-grow-1">
+          <div class="toast-title">
+            Toast Danger
+          </div>
+          <div class="toast-content text-dark">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed do eiusmod tempor
+          </div>
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-transparent btn-icon btn-sm" data-dismiss="toast" aria-label="Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal.modal -->
+  <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Thông báo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <img src="/media/icons-color/subdefault/default/24x24-close.svg" alt="">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form list-mb24 list-crop">
+            <div class="form-group">
+              <label>
+                Input
+              </label>
+              <input type="text" class="form-control" placeholder="Nhập input">
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-secondary btn-block btn-lg" data-dismiss="modal">
+                Hủy bỏ
+              </a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary btn-block btn-lg" data-dismiss="modal">
+                Tiếp tục
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <!-- modal.modalAlert -->
+  <!-- modal.modal -->
+  <div class="modal fade modal-alert" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Thông báo</h5>
+        </div>
+        <div class="modal-body">
+          content
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-secondary btn-block btn-lg" data-dismiss="modal">
+                Hủy bỏ
+              </a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary btn-block btn-lg" data-dismiss="modal">
+                Tiếp tục
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <!-- modal.modalAlert -->
+  <!-- modal.modal -->
+  <div class="modal fade modal-alert" id="modalAlertError" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="alert-ic">
+            <i class="ri-error-warning-line text-danger"></i>
+          </div>
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Thông báo</h5>
+        </div>
+        <div class="modal-body">
+          Có lỗi xảy ra
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-primary btn-block btn-lg" data-dismiss="modal">
+                Đóng
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <!-- modal.modalAlert -->
+  <!-- modal.modal -->
+  <div class="modal fade modal-alert" id="modalAlertSuccess" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="alert-ic">
+            <i class="ri-checkbox-circle-line text-success"></i>
+          </div>
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Thông báo</h5>
+        </div>
+        <div class="modal-body">
+          Thành công!
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-primary btn-block btn-lg" data-dismiss="modal">
+                Đóng
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <script src="js/vendors/particles/particles.bundles.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- jquery -->
+  <script src="js/vendors/jquery/jquery.bundles.js"></script>
+  <!-- jquery -->
+  <!-- metronic -->
+  <script src="js/vendors/metronic/metronic.init.js"></script>
+  <script src="js/vendors/metronic/metronic.bundles.js"></script>
+  <!-- metronic -->
+  <!-- popper -->
+  <script src="js/vendors/popper/popper.bundles.js"></script>
+  <!-- popper -->
+  <!-- bootstrap -->
+  <script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+  <!-- bootstrap -->
+  <!-- bsrestabs -->
+  <script src="js/vendors/bsrestabs/bsrestabs.bundles.js"></script>
+  <!-- bsrestabs -->
+  <!-- moment -->
+  <script src="js/vendors/moment/moment.bundles.js"></script>
+  <!-- moment -->
+  <!-- bootstrapSelect -->
+  <script src="js/vendors/bootstrapSelect/bootstrapSelect.bundles.js"></script>
+  <!-- bootstrapSelect -->
+  <!-- datetimePicker -->
+  <script src="js/vendors/datetimePicker/datetimePicker.bundles.js"></script>
+  <!-- datetimePicker -->
+  <!-- perfectScrollbar -->
+  <script src="js/vendors/perfectScrollbar/perfectScrollbar.bundles.js"></script>
+  <!-- perfectScrollbar -->
+  <!-- autosize -->
+  <script src="js/vendors/autosize/autosize.bundles.js"></script>
+  <!-- autosize -->
+  <!-- timepicker -->
+  <script src="js/vendors/timepicker/timepicker.bundles.js"></script>
+  <!-- timepicker -->
+  <!-- wnumb -->
+  <script src="js/vendors/wnumb/wnumb.bundles.js"></script>
+  <!-- wnumb -->
+  <!-- formvalidation -->
+  <script src="js/vendors/formvalidation/formvalidation.bundles.js"></script>
+  <!-- formvalidation -->
+  <!-- cleave -->
+  <script src="js/vendors/cleave/cleave.bundles.js"></script>
+  <script src="js/vendors/cleave/cleave.init.js"></script>
+  <!-- cleave -->
+  <!-- script use for this page only -->
+  <!-- end script for this page only -->
+  <script src="js/custom.js"></script>
+  <!-- script use for this page only -->
+  <script>
+    FormValidation.formValidation(document.getElementById('kt_form_1'), {
+      fields: {
+        email: {
+          validators: {
+            notEmpty: {
+              message: 'Email is required'
+            },
+            emailAddress: {
+              message: 'The value is not a valid email address'
+            }
+          }
+        },
+        number: {
+          validators: {
+            notEmpty: {
+              message: 'Numbers is required'
+            },
+            number: {
+              message: 'Must be numbers'
+            }
+          }
+        },
+        select: {
+          validators: {
+            notEmpty: {
+              message: 'Select is required'
+            }
+          }
+        },
+        checkbox: {
+          validators: {
+            choice: {
+              min: 1,
+              message: 'Please kindly check this'
+            }
+          }
+        },
+
+        checkboxes: {
+          validators: {
+            choice: {
+              min: 1,
+              max: 5,
+              message: 'Please check at least 1 and maximum 2 options'
+            }
+          }
+        },
+        radios: {
+          validators: {
+            choice: {
+              min: 1,
+              message: 'Please kindly check this'
+            }
+          }
+        }
+      },
+
+      plugins: {
+        trigger: new FormValidation
+          .plugins
+          .Trigger(),
+        // Validate fields when clicking the Submit button
+        submitButton: new FormValidation
+          .plugins
+          .SubmitButton(),
+        // Submit the form when all fields are valid
+        defaultSubmit: new FormValidation
+          .plugins
+          .DefaultSubmit(),
+        // Bootstrap Framework Integration
+        bootstrap: new FormValidation
+          .plugins
+          .Bootstrap({
+            eleInvalidClass: '',
+            eleValidClass: ''
+          })
+      }
+    });
+  </script>
+  <!-- end script for this page only -->
+</body>
+
+</html>

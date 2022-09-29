@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="..\.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>VNPAY OMNI BE -
+  </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <!-- remixicon -->
+  <link rel="stylesheet" href="fonts/main/remix-icons/remixicon.css">
+  <!-- end remixicon -->
+  <!-- formvalidation -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end formvalidation -->
+  <!-- perfectScrollbar -->
+  <link rel="stylesheet" href="css/vendors/perfectScrollbar/perfectScrollbar.bundles.css">
+  <!-- end perfectScrollbar -->
+  <!-- bootstrapSelect -->
+  <link rel="stylesheet" href="css/vendors/bootstrapSelect/bootstrapSelect.bundles.css">
+  <!-- end bootstrapSelect -->
+  <!-- datetimePicker -->
+  <link rel="stylesheet" href="css/vendors/datetimePicker/datetimePicker.bundles.css">
+  <!-- end datetimePicker -->
+  <!-- timepicker -->
+  <link rel="stylesheet" href="css/vendors/timepicker/timepicker.bundles.css">
+  <!-- end timepicker -->
+  <!-- metronic -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/base/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/header/menu/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/brand/light.css" rel="stylesheet" type="text/css" />
+  <link href="css/themes/layout/aside/light.css" rel="stylesheet" type="text/css" />
+  <!-- end metronic -->
+  <!-- css use for this page only -->
+  <!-- end css use for this page only -->
+  <!-- css use for this page only -->
+  <!-- end css use for this page only -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/custom.bundles.css">
+  <link rel="shortcut icon" type="text/html" href="media/favicon/favicon.png">
+</head>
+
+<body id="kt_body" onload="minimizeCheck()" class="header-mobile-fixed subheader-stuck aside-enabled aside-fixed page-loading aside-minimize-hoverable header-fixed">
+  <div id="kt_header_mobile" class="header-mobile align-items-center header-mobile-fixed">
+    <!--begin::Logo-->
+    <a href="pages/index.html">
+      <img alt="Logo" src="media/brands/logo.svg" />
+    </a>
+    <!--end::Logo-->
+    <!--begin::Toolbar-->
+    <div class="d-flex align-items-center">
+      <div class="topbar-item">
+        <div class="dropdown">
+          <div class="topbar-item btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary" data-toggle="dropdown" data-offset="10px,0px">
+            <i class="ri-notification-2-fill text-dark-50">
+              <div class="notify-number"></div>
+            </i>
+          </div>
+          <!--begin::Dropdown-->
+          <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg dropdown-height-noti">
+            <ul class="list-none">
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+              <li class="noti-item">
+                <a href="">Content</a>
+              </li>
+            </ul>
+          </div>
+          <!--end::Dropdown-->
+        </div>
+      </div>
+      <!--begin::Aside Mobile Toggle-->
+      <button class="btn p-0 brand-toggle burger-icon-left" id="kt_aside_mobile_toggle">
+        <div class="con">
+          <div class="bar arrow-top"></div>
+          <div class="bar arrow-middle"></div>
+          <div class="bar arrow-bottom"></div>
+        </div>
+      </button>
+      <!--end::Aside Mobile Toggle-->
+      <!--begin::Topbar Mobile Toggle-->
+      <div class="dropdown">
+        <!--begin::User-->
+        <a class="btn btn-hover-text-primary p-0 ml-2" data-toggle="dropdown">
+          <div class="avatar-image" style="background-image: url(dist/media/default/avatar.svg)"></div>
+        </a>
+        <!--end::User-->
+        <!--begin::Dropdown-->
+        <div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-md dropdown-menu-right">
+          <!--begin::Nav-->
+          <ul class="navi navi-hover py-4">
+            <!--begin::Item-->
+            <li class="navi-item">
+              <a href="pages/profile/1-doi-mat-khau.html" class="navi-link">
+                <img src="media/icons-color/subdefault/default/key.svg" alt="" class="navi-icon">
+                <span class="navi-text">Đổi mật khẩu</span>
+              </a>
+            </li>
+            <li class="navi-item">
+              <a href="pages/login/1-login.html" class="navi-link">
+                <img src="dist//media/icons-color/subdefault/default/logout.svg" alt="" class="navi-icon">
+                <span class="navi-text">Đăng xuất</span>
+              </a>
+            </li>
+            <!--end::Item-->
+          </ul>
+          <!--end::Nav-->
+        </div>
+        <!--end::Dropdown-->
+      </div>
+      <!--end::Topbar Mobile Toggle-->
+    </div>
+    <!--end::Toolbar-->
+  </div>
+  <!--begin::Header-->
+  <div id="kt_header" class="header header-fixed">
+    <!--begin::Container-->
+    <div class="d-flex align-items-stretch header-inner">
+      <!--begin::Header Menu Wrapper-->
+      <!--begin::Brand-->
+      <div class="brand flex-column-auto" id="kt_brand">
+        <!--begin::Toggle-->
+        <button class="brand-toggle btn btn-sm px-0" id="kt_aside_toggle">
+          <img src="media/icons-color/primary/default/burger-2.svg" alt="">
+        </button>
+        <!--end::Toolbar-->
+        <!--begin::Logo-->
+        <a href="pages/index.html" class="brand-logo">
+          <img alt="Logo" src="media/brands/logo.svg" />
+        </a>
+        <!--end::Logo-->
+      </div>
+      <!--end::Brand-->
+      <div class="w-100 justify-content-between d-flex">
+        <div class="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+          <!--begin::Header Menu-->
+          <div id="kt_header_menu" class="align-items-center header-menu header-menu-mobile header-menu-layout-default">
+            <div class="pl-32 h4 page-title">Hệ thống OMNI Back End</div>
+          </div>
+          <!--end::Header Menu-->
+        </div>
+        <!--end::Header Menu Wrapper-->
+        <!--begin::Topbar-->
+        <div class="topbar">
+          <div class="topbar-item">
+            <div class="dropdown">
+              <div class="topbar-item btn btn-icon btn-icon-muted btn-active-light btn-active-color-primary" data-toggle="dropdown" data-offset="10px,0px">
+                <i class="ri-notification-2-fill text-dark-50">
+                  <div class="notify-number"></div>
+                </i>
+              </div>
+              <!--begin::Dropdown-->
+              <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg dropdown-height-noti">
+                <ul class="list-none">
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                  <li class="noti-item">
+                    <a href="">Content</a>
+                  </li>
+                </ul>
+              </div>
+              <!--end::Dropdown-->
+            </div>
+          </div>
+          <div class="dropdown avatar-dropdown">
+            <!--begin::User-->
+            <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px">
+              <div class="btn btn-icon w-auto d-flex align-items-center btn-lg px-2">
+                <div class="avatar-text">
+                  <div class="h5 text-dark-50">
+                    Xin chào!
+                  </div>
+                  <div class="p font-weight-500">Hằng</div>
+                </div>
+                <div class="avatar-image" style="background-image: url(dist/media/default/avatar.svg)"></div>
+                <div class="avatar-arrow">
+                  <img src="media/icons-color/subdefault/default/carret-down.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <!--end::User-->
+            <!--begin::Dropdown-->
+            <div class="dropdown-menu p-0 m-0 dropdown-menu-anim-up dropdown-menu-md dropdown-menu-right">
+              <!--begin::Nav-->
+              <ul class="navi navi-hover py-4">
+                <!--begin::Item-->
+                <li class="navi-item">
+                  <a href="pages/profile/2-thong-tin-tai-khoan.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/24x24-user.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Thông tin tài khoản</span>
+                  </a>
+                </li>
+                <li class="navi-item">
+                  <a href="pages/profile/1-doi-mat-khau.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/key.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Đổi mật khẩu</span>
+                  </a>
+                </li>
+                <li class="navi-item">
+                  <a href="pages/login/1-login.html" class="navi-link">
+                    <img src="media/icons-color/subdefault/default/logout.svg" alt="" class="navi-icon">
+                    <span class="navi-text">Đăng xuất</span>
+                  </a>
+                </li>
+                <!--end::Item-->
+              </ul>
+              <!--end::Nav-->
+            </div>
+            <!--end::Dropdown-->
+          </div>
+        </div>
+      </div>
+      <!--end::Topbar-->
+    </div>
+    <!--end::Container-->
+  </div>
+  <!--end::Header-->
+  <div class="d-flex flex-column flex-root">
+    <!--begin::Page-->
+    <div class="d-flex flex-row flex-column-fluid page">
+      <!--begin::Aside-->
+      <div class="aside aside-left aside-fixed d-flex flex-column flex-row-auto" id="kt_aside">
+        <!--begin::Aside Menu-->
+        <div class="aside-menu-wrapper flex-column-fluid" id="kt_aside_menu_wrapper">
+          <!--begin::Menu Container-->
+          <div id="kt_aside_menu" class="aside-menu my-4" data-menu-vertical="1" data-menu-scroll="1" data-menu-dropdown-timeout="500">
+            <!--begin::Menu Nav-->
+            <ul class="menu-nav">
+              <li class="menu-item center" aria-haspopup="true">
+                <a href="pages/components.html" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/puzzle.svg" alt="" class=""></div>
+                  <span class="menu-text">Component</span>
+                </a>
+              </li>
+              <li class="menu-item center" aria-haspopup="true">
+                <a href="pages/" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/layout-4-block.svg" alt="" class=""></div>
+                  <span class="menu-text">Màn hình chính</span>
+                </a>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/cod007.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý hệ thống</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-banner/1-danh-sach-banner.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý Banner</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-nguoi-dung/1-danh-sach-nguoi-dung.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý người dùng</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý tin OTT</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Quản lý nhóm quyền</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item center" aria-haspopup="true">
+                <a href="pages/quan-ly-user-web-app/1-danh-sach-user-web-app.html" class="menu-link">
+                  <div class="menu-icon"><img src="media/icons/metronic/layout-4-block.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý User Web/App</span>
+                </a>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/folders.svg" alt="" class=""></div>
+                  <span class="menu-text">Quản lý giao dịch</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/1-danh-sach-giao-dich-thanh-toan.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch thanh toán - thu hộ</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/2-danh-sach-giao-dich-hoan.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch hoàn - thu hộ</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/3-danh-sach-giao-dich-he-sinh-thai.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch hệ sinh thái</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/quan-ly-giao-dich/4-danh-sach-giao-dich-vi-vnpay.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Giao dịch Ví VNPAY</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="menu-item menu-item-submenu" aria-haspopup="true" data-menu-toggle="hover">
+                <a href="javascript:;" class="menu-link menu-toggle">
+                  <div class="menu-icon"><img src="media/icons/metronic/folders.svg" alt="" class=""></div>
+                  <span class="menu-text">Hỗ trợ</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="menu-submenu">
+                  <i class="menu-arrow"></i>
+                  <ul class="menu-subnav">
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Lịch sử truy cập ứng dụng</span>
+                      </a>
+                    </li>
+                    <li class="menu-item center" aria-haspopup="true">
+                      <a href="pages/ho-tro/1-phien-dang-nhap.html" class="menu-link">
+                        <i class="menu-bullet menu-bullet-dot">
+                          <span></span>
+                        </i>
+                        <span class="menu-text">Phiên truy cập ứng dụng</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <!--end::Menu Nav-->
+          </div>
+          <!--end::Menu Container-->
+        </div>
+        <!--end::Aside Menu-->
+      </div>
+      <!--end::Aside-->
+      <!--begin::Wrapper-->
+      <div class="d-flex flex-column flex-row-fluid wrapper" id="kt_wrapper">
+        <!--begin::Content-->
+        <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+          <!--begin::Entry-->
+          <div class="d-flex flex-column-fluid">
+            <!--begin::Container-->
+            <div class="container-fluid">
+              <!--begin::Dashboard-->
+              <!--end::Dashboard-->
+            </div>
+            <!--end::Container-->
+          </div>
+          <!--end::Entry-->
+        </div>
+        <!--end::Content-->
+        <div id="footer"></div>
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
+  </div>
+  <div id="kt_scrolltop" class="scrolltop">
+    <i class="ri-arrow-up-s-line"></i>
+  </div>
+  <!-- modal.modalAlert -->
+  <!-- modal.modal -->
+  <div class="modal fade modal-alert" id="modalSelectOrg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title h2 b" id="exampleModalLabel">Lựa chọn tổ chức</h5>
+        </div>
+        <div class="modal-body">
+          <div class="form list-mb24 list-crop">
+            <div class="text-center text-dark-50 mb-20">
+              Quý khách vui lòng lựa chọn thông tin tổ chức muốn truy cập
+            </div>
+            <div class="text-left">
+              <div class="form-group">
+                <label>
+                  Tổ chức
+                </label>
+                <select class="form-control selectpicker" title="Chọn" title="Chọn" data-size="5">
+                  <option>
+                    Công ty Cổ phần Công nghệ Giáo dục Tri thức số Việt Nam
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row list-mb8 list-crop">
+            <div class="col">
+              <a class="btn btn-secondary btn-block" data-dismiss="modal">
+                Đóng
+              </a>
+            </div>
+            <div class="col">
+              <a class="btn btn-primary btn-block" data-dismiss="modal">
+                Tiếp tục
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end modal.modal -->
+  <script src="js/vendors/particles/particles.bundles.js"></script>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <!-- jquery -->
+  <script src="js/vendors/jquery/jquery.bundles.js"></script>
+  <!-- jquery -->
+  <!-- metronic -->
+  <script src="js/vendors/metronic/metronic.init.js"></script>
+  <script src="js/vendors/metronic/metronic.bundles.js"></script>
+  <!-- metronic -->
+  <!-- popper -->
+  <script src="js/vendors/popper/popper.bundles.js"></script>
+  <!-- popper -->
+  <!-- bootstrap -->
+  <script src="js/vendors/bootstrap/bootstrap.bundles.js"></script>
+  <!-- bootstrap -->
+  <!-- bsrestabs -->
+  <script src="js/vendors/bsrestabs/bsrestabs.bundles.js"></script>
+  <!-- bsrestabs -->
+  <!-- moment -->
+  <script src="js/vendors/moment/moment.bundles.js"></script>
+  <!-- moment -->
+  <!-- bootstrapSelect -->
+  <script src="js/vendors/bootstrapSelect/bootstrapSelect.bundles.js"></script>
+  <!-- bootstrapSelect -->
+  <!-- datetimePicker -->
+  <script src="js/vendors/datetimePicker/datetimePicker.bundles.js"></script>
+  <!-- datetimePicker -->
+  <!-- perfectScrollbar -->
+  <script src="js/vendors/perfectScrollbar/perfectScrollbar.bundles.js"></script>
+  <!-- perfectScrollbar -->
+  <!-- autosize -->
+  <script src="js/vendors/autosize/autosize.bundles.js"></script>
+  <!-- autosize -->
+  <!-- timepicker -->
+  <script src="js/vendors/timepicker/timepicker.bundles.js"></script>
+  <!-- timepicker -->
+  <!-- wnumb -->
+  <script src="js/vendors/wnumb/wnumb.bundles.js"></script>
+  <!-- wnumb -->
+  <!-- formvalidation -->
+  <script src="js/vendors/formvalidation/formvalidation.bundles.js"></script>
+  <!-- formvalidation -->
+  <!-- cleave -->
+  <script src="js/vendors/cleave/cleave.bundles.js"></script>
+  <script src="js/vendors/cleave/cleave.init.js"></script>
+  <!-- cleave -->
+  <!-- script use for this page only -->
+  <!-- end script for this page only -->
+  <script src="js/custom.js"></script>
+  <!-- script use for this page only -->
+  <!-- end script for this page only -->
+</body>
+
+</html>

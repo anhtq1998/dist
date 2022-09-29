@@ -1,0 +1,7 @@
+<svg id="Custom_Briefcase" data-name="Custom/Briefcase" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_5889" data-name="Rectangle 5889" width="24" height="24" fill="#0071a9" opacity="0"/>
+  <g id="Group_12968" data-name="Group 12968" transform="translate(3 -28)">
+    <path id="Path_613" data-name="Path 613" d="M11.25,288H18v5.063a1.73,1.73,0,0,1-1.687,1.688H1.688A1.73,1.73,0,0,1,0,293.063V288H6.75v1.688a.562.562,0,0,0,.563.563h3.375a.562.562,0,0,0,.563-.562Z" transform="translate(0 -247)" fill="#0071a9" opacity="0.3"/>
+    <path id="Path_614" data-name="Path 614" d="M16.313,35.375H13.5V33.688A1.73,1.73,0,0,0,11.813,32H6.188A1.73,1.73,0,0,0,4.5,33.688v1.688H1.688A1.73,1.73,0,0,0,0,37.063v2.813H18V37.063A1.73,1.73,0,0,0,16.313,35.375Zm-5.062,0H6.75V34.25h4.5Z" fill="#0071a9"/>
+  </g>
+</svg>

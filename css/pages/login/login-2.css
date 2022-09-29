@@ -1,0 +1,312 @@
+.form-control:disabled {
+  color: rgb(191, 204, 217);
+}
+.form-control[readonly] {
+  color: rgb(90, 112, 135);
+}
+
+.btn {
+  padding: 6px 12px;
+  height: 40px;
+}
+.btn-sm {
+  padding: 6px 12px;
+  height: 32px;
+}
+.btn-lg {
+  padding: 6px 12px;
+  height: 48px;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link,
+.brand-toggle .bar,
+.aside-menu .menu-nav > .menu-item.menu-item-here.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-here.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link {
+  background-color: rgb(232, 241, 246) !important;
+}
+
+.brand .btn i,
+.breadcrumbs-item--active .txt {
+  color: rgb(33, 38, 44);
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active > .menu-link {
+  background-color: transparent;
+}
+
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-heading .menu-icon,
+.aside-menu .menu-nav > .menu-item.menu-item-active > .menu-link .menu-icon,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-text,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-arrow,
+.aside-menu .menu-nav > .menu-item.menu-item-here > .menu-link .menu-icon {
+  color: rgb(0, 113, 169) !important;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-heading,
+.aside-menu .menu-nav > .menu-item.menu-item-open > .menu-link,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item.menu-item-active {
+  background-color: rgb(232, 241, 246) !important;
+}
+
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item > .menu-heading .menu-bullet.menu-bullet-dot > span,
+.aside-menu .menu-nav > .menu-item .menu-submenu .menu-item > .menu-link .menu-bullet.menu-bullet-dot > span {
+  background-color: rgb(191, 204, 217);
+}
+
+.btn.btn-light.dropdown-toggle:after {
+  color: rgb(90, 112, 135) !important;
+}
+
+.toggle {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 32px;
+}
+.toggle .text {
+  font-size: em(18px);
+  transform: translate3d(0, 0, 0);
+}
+
+.brand {
+  border-right: 1px solid rgb(234, 237, 241);
+}
+
+.aside-fixed .aside-left .menu-nav {
+  padding-top: 84px !important;
+}
+
+.brand {
+  width: 280px;
+}
+
+i {
+  color: rgb(33, 38, 44);
+  font-size: 24px;
+}
+
+.navi-link:hover i {
+  color: rgb(0, 113, 169);
+}
+
+.login-box {
+  padding: 30px;
+  border: 1px solid rgb(234, 237, 241);
+  max-width: 540px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.login-background-sub {
+  background: rgb(245, 247, 249);
+}
+
+.modal-content {
+  border-radius: 6px;
+  border: 1px solid rgb(234, 237, 241);
+  box-shadow: 0px 16px 32px rgba(46, 46, 46, 0.4);
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-light .filter-option,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn-secondary .filter-option {
+  color: rgb(191, 204, 217);
+}
+
+.table th,
+.table td {
+  border: 1px solid rgb(234, 237, 241) !important;
+}
+
+.ult-wrap .btn i {
+  color: rgb(90, 112, 135);
+}
+.ult-wrap .btn:hover i {
+  color: rgb(0, 113, 169);
+}
+
+.table-striped > tbody > tr:nth-of-type(even) .sticky-ult {
+  background-color: rgb(245, 247, 249);
+}
+
+.table-sticky-ult {
+  border-bottom: 1px solid rgb(234, 237, 241);
+}
+
+.bootstrap-select.form-control-sm .dropdown-toggle {
+  height: 32px;
+}
+
+.sort-asc {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.75' height='10' viewBox='0 0 8.75 10'%3E%3Cpath id='ic_arrow_down' d='M5.006,8.122,7.844,5.3l.906.887L5.289,9.63a1.244,1.244,0,0,1-.914.37,1.244,1.244,0,0,1-.914-.37L0,6.184.906,5.3,3.744,8.122V0H5.006Z' transform='translate(8.75 10) rotate(180)' fill='%23fff'/%3E%3C/svg%3E%0A");
+}
+
+.sort-desc {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.75' height='10' viewBox='0 0 8.75 10'%3E%3Cpath id='ic_arrow_down' d='M5.006,8.122,7.844,5.3l.906.887L5.289,9.63a1.244,1.244,0,0,1-.914.37,1.244,1.244,0,0,1-.914-.37L0,6.184.906,5.3,3.744,8.122V0H5.006Z' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+.label-title {
+  color: rgb(90, 112, 135);
+}
+
+.checkbox > span,
+.checkbox > input[readonly] ~ span,
+.radio > span,
+.radio > input[readonly] ~ span {
+  border: 1px solid rgb(191, 204, 217) !important;
+}
+
+.radio > input:checked[readonly] ~ span {
+  background-color: #ffffff;
+}
+.radio > input:checked[readonly] ~ span:after {
+  background-color: rgb(0, 113, 169);
+}
+
+.checkbox > input:checked:not([readonly]) ~ span,
+.radio > input:checked:not([readonly]) ~ span {
+  border-color: rgb(0, 113, 169) !important;
+}
+
+.checkbox > input[readonly] ~ span:before,
+.bootstrap-select .dropdown-menu.inner > li.selected a:after {
+  color: rgb(0, 113, 169) !important;
+}
+
+.signnature-box::before {
+  background-color: rgb(245, 247, 249);
+}
+
+.bootstrap-timepicker-widget table td > a span {
+  color: rgb(90, 112, 135) !important;
+}
+
+.form-control:hover,
+.checkbox input:not(:disabled):not(:checked) ~ span:hover,
+.radio input:not(:disabled):not(:checked) ~ span:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder.btn:hover {
+  border-color: rgb(191, 204, 217) !important;
+}
+
+.btn.btn-light:hover:not(.btn-text):not(:disabled):not(.disabled) {
+  border-color: rgb(191, 204, 217) !important;
+}
+
+.datepicker {
+  border-radius: 3px !important;
+}
+
+.table > thead > tr > th {
+  color: white;
+  background-color: rgb(0, 68, 102);
+  vertical-align: middle;
+}
+
+.btn-link i {
+  color: rgb(0, 113, 169);
+}
+
+.alert.alert-custom.alert-light-info .alert-text {
+  color: rgb(11, 109, 142) !important;
+}
+
+.alert.alert-custom.alert-light-danger .alert-text {
+  color: rgb(142, 11, 11) !important;
+}
+
+.alert.alert-custom.alert-light-warning .alert-text {
+  color: rgb(153, 84, 0) !important;
+}
+
+.btn-white-link {
+  color: rgb(0, 113, 169) !important;
+}
+
+.modal-alert .modal-body {
+  color: rgb(90, 112, 135);
+}
+
+.login.login-2 .login-signin,
+.login.login-2 .login-signup,
+.login.login-2 .login-forgot {
+  display: none;
+}
+.login.login-2.login-signin-on .login-signup {
+  display: none;
+}
+.login.login-2.login-signin-on .login-signin {
+  display: block;
+}
+.login.login-2.login-signin-on .login-forgot {
+  display: none;
+}
+.login.login-2.login-signup-on .login-signup {
+  display: block;
+}
+.login.login-2.login-signup-on .login-signin {
+  display: none;
+}
+.login.login-2.login-signup-on .login-forgot {
+  display: none;
+}
+.login.login-2.login-forgot-on .login-signup {
+  display: none;
+}
+.login.login-2.login-forgot-on .login-signin {
+  display: none;
+}
+.login.login-2.login-forgot-on .login-forgot {
+  display: block;
+}
+.login.login-2 .content .content-img {
+  min-height: 450px;
+}
+
+@media (min-width: 992px) {
+  .login.login-2 .login-aside {
+    width: 100%;
+    max-width: 600px;
+  }
+  .login.login-2 .content .content-img {
+    min-height: 600px !important;
+  }
+  .login.login-2 .login-form {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1399.98px) {
+  .login.login-2 .login-aside {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+@media (max-width: 991.98px) {
+  .login.login-2 .content .content-img {
+    min-height: 470px !important;
+    background-size: 700px;
+  }
+  .login.login-2 .login-form {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+@media (max-width: 575.98px) {
+  .login.login-2 .content .content-img {
+    min-height: 280px !important;
+    background-size: 400px;
+  }
+  .login.login-2 .login-form {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=../../map/pages/login/login-2.css.map */

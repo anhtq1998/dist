@@ -1,0 +1,8 @@
+<svg id="groupchat" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle_6427" data-name="Rectangle 6427" width="24" height="24" fill="none"/>
+  <g id="ecm002">
+    <path id="Path_16245" data-name="Path 16245" d="M21,10H13v1a1,1,0,0,1-2,0V10H3a.945.945,0,0,0-1,1v2H22V11A.945.945,0,0,0,21,10Z" fill="#0071a9"/>
+    <path id="Path_16246" data-name="Path 16246" d="M12,12a.945.945,0,0,1-1-1V3a1,1,0,0,1,2,0v8A.945.945,0,0,1,12,12Z" fill="#00699e" opacity="0.3"/>
+    <path id="Path_16247" data-name="Path 16247" d="M18.1,21H5.9a1.172,1.172,0,0,1-1.1-.9L3,13H21l-1.8,7.1A1.172,1.172,0,0,1,18.1,21ZM13,18V15a1,1,0,0,0-2,0v3a1,1,0,0,0,2,0Zm4,0V15a1,1,0,0,0-2,0v3a1,1,0,0,0,2,0ZM9,18V15a.945.945,0,0,0-1-1,.945.945,0,0,0-1,1v3a.945.945,0,0,0,1,1A.945.945,0,0,0,9,18Z" fill="#00699e" opacity="0.3"/>
+  </g>
+</svg>
